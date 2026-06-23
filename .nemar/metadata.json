@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Auditory single word recognition in MEG",
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings of auditory single word recognition in human subjects. Participants listened to isolated words from the Massive Auditory Lexical Decision (MALD) database while neural activity was recorded, providing insights into the temporal dynamics of auditory word comprehension. The dataset includes raw MEG data, stimulus information, and associated metadata, formatted according to the Brain Imaging Data Structure (BIDS) standard.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +11,39 @@
     "Colin Phillips": {},
     "Ellen Lau": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004276.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "word recognition"
+    },
+    {
+      "term": "lexical decision"
+    },
+    {
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "MALD"
+    },
+    {
+      "term": "Massive Auditory Lexical Decision"
+    },
+    {
+      "term": "MNE-BIDS"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004276",
       "identifier_type": "URL",
@@ -45,6 +73,11 @@
       "identifier": "10.1162/nol_a_00069",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004276.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -54,52 +87,21 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "meg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "12.5 GB (20 files)"
   ],
   "formats": [
     ".fif",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings of participants performing auditory single word recognition tasks. The study investigates the temporal dynamics of auditory word comprehension using isolated word stimuli from the Massive Auditory Lexical Decision database, examining whether auditory word comprehension processes are less incremental when processing isolated words compared to continuous speech. Data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard, enabling systematic analysis of neural responses during lexical processing.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "word recognition"
-    },
-    {
-      "term": "lexical decision"
-    },
-    {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "language comprehension"
-    },
-    {
-      "term": "MALD"
-    },
-    {
-      "term": "Massive Auditory Lexical Decision"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "incremental processing"
-    }
-  ],
-  "source_hash": "1983caa2bcf31465fefc233a2bb2d99fa3380aa0ba388223cde41876b6930925"
+  "methods_description": "MEG data were collected during an auditory word recognition task using stimuli from the Massive Auditory Lexical Decision database. Data were converted to BIDS format using MNE-BIDS.",
+  "source_hash": "2e2351582a55081b2340befb8b32ac6e84d7ba12bfbbaf3f21971281b404b06f"
 }
