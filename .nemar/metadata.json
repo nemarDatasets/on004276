@@ -1,0 +1,37 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004276",
+  "source": "openneuro",
+  "source_id": "ds004276",
+  "title": "Auditory single word recognition in MEG",
+  "authors": {
+    "Phoebe Gaston": {},
+    "Christian Brodbeck": {},
+    "Colin Phillips": {},
+    "Ellen Lau": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004276.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6.0",
+  "recording_modality": [
+    "beh",
+    "meg"
+  ],
+  "datatypes": [
+    "beh",
+    "meg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NSF BCS-1749407"
+    }
+  ]
+}
