@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004276-blue)](https://doi.org/10.82901/nemar.on004276)
+
 # Auditory single word recognition in MEG
 
 This dataset is described in Gaston et al. (2022).
