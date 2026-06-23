@@ -1,37 +1,105 @@
 {
   "version": "2.0",
-  "dataset_id": "on004276",
-  "source": "openneuro",
-  "source_id": "ds004276",
+  "pipeline_stage": "enriched",
   "title": "Auditory single word recognition in MEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Phoebe Gaston": {},
     "Christian Brodbeck": {},
     "Colin Phillips": {},
     "Ellen Lau": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004276.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004276",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004276",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.3758/s13428-018-1056-1",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.1162/nol_a_00069",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "beh",
-    "meg"
-  ],
-  "datatypes": [
-    "beh",
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "NSF BCS-1749407"
+      "funder_name": "NSF",
+      "award_number": "BCS-1749407"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "beh",
+    "meg"
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings of participants performing auditory single word recognition tasks. The study investigates the temporal dynamics of auditory word comprehension using isolated word stimuli from the Massive Auditory Lexical Decision database, examining whether auditory word comprehension processes are less incremental when processing isolated words compared to continuous speech. Data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard, enabling systematic analysis of neural responses during lexical processing.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "word recognition"
+    },
+    {
+      "term": "lexical decision"
+    },
+    {
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "language comprehension"
+    },
+    {
+      "term": "MALD"
+    },
+    {
+      "term": "Massive Auditory Lexical Decision"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "incremental processing"
+    }
+  ],
+  "source_hash": "1983caa2bcf31465fefc233a2bb2d99fa3380aa0ba388223cde41876b6930925"
 }
