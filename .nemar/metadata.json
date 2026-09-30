@@ -1,8 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Auditory single word recognition in MEG",
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings of auditory single word recognition in human subjects. Participants listened to isolated words from the Massive Auditory Lexical Decision (MALD) database while neural activity was recorded, providing insights into the temporal dynamics of auditory word comprehension. The dataset includes raw MEG data, stimulus information, and associated metadata, formatted according to the Brain Imaging Data Structure (BIDS) standard.",
+  "description": "Magnetoencephalography (MEG) recordings from participants performing auditory single word recognition. The dataset accompanies a study of auditory word comprehension in isolated words and is organized in BIDS format. Stimuli and TextGrids come from the Massive Auditory Lexical Decision database.",
+  "methods_description": "MEG data were collected during an auditory word recognition task using stimuli from the Massive Auditory Lexical Decision database. Data were converted to BIDS format using MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,31 +17,18 @@
       "term": "MEG"
     },
     {
-      "term": "auditory processing"
+      "term": "auditory word recognition"
     },
     {
-      "term": "word recognition"
+      "term": "speech comprehension"
     },
     {
-      "term": "lexical decision"
+      "term": "single word processing"
     },
     {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "MALD"
-    },
-    {
-      "term": "Massive Auditory Lexical Decision"
-    },
-    {
-      "term": "MNE-BIDS"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     }
   ],
   "related_identifiers": [
@@ -50,14 +38,9 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004276",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1038/sdata.2018.110",
@@ -70,14 +53,14 @@
       "relation_type": "IsSupplementedBy"
     },
     {
-      "identifier": "10.1162/nol_a_00069",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004276.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004276",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -93,7 +76,7 @@
     "meg"
   ],
   "sizes": [
-    "12.5 GB (20 files)"
+    "11.61 GB (20 files)"
   ],
   "formats": [
     ".fif",
@@ -102,6 +85,5 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "MEG data were collected during an auditory word recognition task using stimuli from the Massive Auditory Lexical Decision database. Data were converted to BIDS format using MNE-BIDS.",
   "source_hash": "2e2351582a55081b2340befb8b32ac6e84d7ba12bfbbaf3f21971281b404b06f"
 }
